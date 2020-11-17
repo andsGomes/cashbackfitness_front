@@ -1,0 +1,47 @@
+/* Variavel de Incio*/
+
+:root {
+    font-size: 62.5%;
+    --color-background: #121214;
+    --color-green: #04d361;
+    --color-red: #e83f5b;
+    --color-orange: #fd951f;
+    --color-yellow: #f7df1e;
+    --color-primary: #8257e6;
+    --color-primary-hover: #9466ff;
+    --color-secondary: #e1e1e6;
+    --color-text: #a8a8b3;
+    --color-support: #737380;
+    --color-shape: #202024;
+    --color-shape-hover: #29292e;
+    --color-icons: #41414d;
+    --color-borders: #323238;
+    --color-black: #0d0d0f;
+    --color-white: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Body ajustes incio*/
+
+body {
+    background: #000;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.container {
+    width: min(90%, 96rem);
+    margin: 0 auto;
+}
