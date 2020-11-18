@@ -63,3 +63,7 @@
             width: 90%;
             max-width: 800px;
         }
+        
+        #video-cf {
+            width: clamp(20rem, 80vw, 87rem) !important;
+        }
