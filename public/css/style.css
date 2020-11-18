@@ -8,6 +8,7 @@
             
             #page {
                 background: linear-gradient(269.23deg, rgba(0, 0, 0, 0.55) 28.34%, #000000 99.33%), url('../img/inicio_background.png');
+                min-height: 100vh;
             }
             
             #page {
