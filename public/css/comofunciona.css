@@ -41,6 +41,11 @@
             margin-right: 55%;
         }
         
+        .texto-cf p {
+            font-size: clamp(1rem, 1.4vw, 2.1rem);
+            text-align: justify;
+        }
+        
         .texto-cf img {
             width: 6em;
             height: 6em;
@@ -52,4 +57,9 @@
         
         .img2 {
             float: right;
+        }
+        
+        .cf-video {
+            width: 90%;
+            max-width: 800px;
         }
