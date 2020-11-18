@@ -31,14 +31,25 @@
             font-size: clamp(2.5rem, 3.5vw, 4.5rem);
         }
         
+        .texto-cf {
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        .texto-cf h5 {
+            color: #fff;
+            margin-right: 55%;
+        }
+        
+        .texto-cf img {
+            width: 6em;
+            height: 6em;
+        }
+        
         .img1 {
             float: left;
-            width: 5em;
-            height: 5em;
         }
         
         .img2 {
             float: right;
-            width: 5em;
-            height: 5em;
         }
