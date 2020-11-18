@@ -1,21 +1,42 @@
  @import'reset.css';
  @import'global.css';
+ @import'inputs.css';
  @import'style.css';
  /* pagina */
- 
+
  #page {
-     background: linear-gradient(269.23deg, rgba(0, 0, 0, 0.74) 10.34%, #00000088 99.33%), url('../img/imgcontato.png');
+     background:  url('../img/imgcontato.png');
+     /* linear-gradient(269.23deg, rgba(0, 0, 0, 0.74) 10.34%, #00000088 99.33%), */
      background-repeat: no-repeat;
  }
- 
+
  #page {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: 30%;
  }
- 
+
  #page {
      text-align: center;
      min-height: 100vh;
      display: flex;
  }
+
+ /* main */
+ .main {
+    width: 100%;
+    margin: 50px auto;
+}
+
+ .main h1 {
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 7rem);
+    line-height: 1;
+
+}
+
+.form{
+    width: 100%;
+    max-width: 80rem;
+    margin: 20px auto;
+}

@@ -1,0 +1,27 @@
+
+
+input, textarea{
+    width: 100%;
+    height: 50px;
+    padding: 0px 1em 0px 1em;
+    border-radius: 5px;
+    outline: 0px;
+    margin-bottom:10px;
+    transition: border 0.2s ease 0s;
+}
+
+
+textarea{
+    height: 100px;
+    padding: 1em 1em 1em 1em;
+    margin-bottom:10px;
+}
+
+button{
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease 0s, color 0.2s ease 0s;
+}
