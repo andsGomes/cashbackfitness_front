@@ -10,9 +10,9 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
   $to = "atendimento@cashbackfitness.com.br";
   $subject = "Fale Conosco - atendimento br";
   $body = "Nome :".$nome. "\r\n".
-           "Email".$email."\r\n".
-           "Assunto".$assunto."\r\n".
-           "Mensagem".$mensagem;
+           "Email : ".$email."\r\n".
+           "Assunto :".$assunto."\r\n".
+           "Mensagem :".$mensagem;
            
 
   $header = "From:atendimento@cashbackfitness.com.br"."\r\n".
