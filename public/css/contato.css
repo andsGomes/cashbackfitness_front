@@ -43,3 +43,18 @@
  .form form {
      padding: 20px;
  }
+
+.politica { 
+    font-size: 10px;
+}
+
+ .termos p {
+    font-family: Syncopate;
+    font-style: normal;
+    font-weight: normal;
+    font-size: clamp(1rem, 1.3vw, 3rem);
+    line-height: 2;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+ }
