@@ -173,3 +173,14 @@
                 font-weight: 600 !important;
                 background: #04f16f;
             }
+
+            .privacidade{
+                padding: 10px;
+            }
+
+           
+            .privacidade a{ 
+                text-decoration:none;
+                color: #fff;
+                font-size: clamp(1rem, 1vw, 1.2rem);
+            }
