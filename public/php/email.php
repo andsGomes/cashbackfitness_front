@@ -7,7 +7,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
   $mensagem = addslashes($_POST['mensagem']);
 
 
-  $to = "atendimento@cashbackfitness.com.br";
+  $to = "atendimento@cashbackfitness.club";
   $subject = "Fale Conosco - atendimento br";
   $body =  "Nome :    " . $nome .   "\r\n" .
     "Email :   " . $email .  "\r\n" .
