@@ -18,6 +18,10 @@
         body{
             background: #102246;
         }
+
+        #page{
+            background: #102246;
+        }
         #page {
             text-align: center;
             min-height: 100vh;
