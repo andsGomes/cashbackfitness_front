@@ -1,7 +1,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
         @import'reset.css';
         @import'global.css';
-        @import'grid.css';
+        /* @import'grid.css'; */
         @import'style.css';
         /* pagina */
         
@@ -17,6 +17,11 @@
         } */
         body{
             background: #102246;
+
+        }
+
+        #page{
+            background: #102246; 
         }
 
         #page{
@@ -36,9 +41,10 @@
 
         .main p{
             font-family: 'Noto Sans JP', sans-serif;
-            font-size: clamp(1rem, 1.5vw, 3rem);
+            font-size: 2rem;
             line-height: 1.2;
             text-align:initial;
+            padding: 5px;
    
         }
         
@@ -74,23 +80,122 @@
         .img2 {
             float: right;
         }
+
+        .viodeo{
+            margin-top:40px;
+            margin-bottom: 40px;
+        }
         
         .cf-video {
             width: 90%;
             max-width: 800px;
         }
-        
-        #video-cf {
-            width: clamp(10rem, 35vw, 87rem) !important;
-            position: relative;
-            left: 70px;
-        }
 
+        #video-cf {
+            width: 84rem !important;
+            position: relative;
+            right:1rem;
+        }
 
         .passo ul li{
             font-family: 'Noto Sans JP', sans-serif;
-            font-size: clamp(1rem, 1.5vw, 3rem);
+            font-size: 2rem;
             line-height: 1.2;
             text-align:initial;
             color: #fff;
         }
+ 
+        @media (max-width: 321px){
+            .main p {
+                font-size: 15px;
+                padding: 6px;
+            }
+
+            .passo ul li {
+                font-size: 15px;
+            }
+
+            .viodeo{
+                margin-top:30px;
+                margin-bottom: 30px;
+            }
+
+            #video-cf {
+                width: 250px !important;
+                position: relative;
+                left:0;
+            }
+        }
+
+        @media (max-width: 376px){
+            .main p {
+                font-size: 15px;
+                padding: 6px;
+            }
+
+            .passo ul li {
+                font-size: 15px;
+            }
+
+            .viodeo{
+                margin-top:30px;
+                margin-bottom: 30px;
+            }
+
+            #video-cf {
+                width: 250px !important;
+                position: relative;
+                left:0;
+            }
+        }
+
+
+        @media (max-width: 426px){
+            .main p {
+                font-size: 18px;
+                padding: 6px;
+            }
+
+            .passo ul li {
+                font-size: 18px;
+            }
+
+            .viodeo{
+                margin-top:30px;
+                margin-bottom: 30px;
+            }
+            
+           
+            #video-cf {
+                width: 325px !important;
+                position: relative;
+                left:0;
+            }
+        }
+
+        @media (max-width: 768px){
+            .main p {
+                font-size: 18px;
+                padding: 6px;
+            }
+
+            .passo ul li {
+                font-size: 18px;
+            }
+
+            .viodeo{
+                margin-top:30px;
+                margin-bottom: 30px;
+            }
+            
+           
+            #video-cf {
+                width: 600px !important;
+                position: relative;
+                left:0;
+            }
+        }
+        
+       
+
+        

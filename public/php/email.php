@@ -22,11 +22,11 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 
   if (mail($to, $subject, $body, $header)) {
     echo ("Email enviado com sucesso.");
-    header("Location: .$index.html");
+    header ("location: http://www.cashbackfitness.club/index.html");
     die();
   } else {
     echo ("O Email nao pode ser enviado.");
-    header("Location: .$index.html");
+    header("Location: http://www.cashbackfitness.club/index.html");
 
     die();
 
