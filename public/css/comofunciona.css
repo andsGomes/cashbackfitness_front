@@ -105,51 +105,32 @@
             color: #fff;
         }
  
-        @media (max-width: 321px){
+
+
+        @media (max-width: 769px){
             .main p {
-                font-size: 15px;
+                font-size: 18px;
                 padding: 6px;
             }
 
             .passo ul li {
-                font-size: 15px;
+                font-size: 18px;
             }
 
             .viodeo{
                 margin-top:30px;
                 margin-bottom: 30px;
             }
-
+            
+           
             #video-cf {
-                width: 250px !important;
+                width: 600px !important;
                 position: relative;
                 left:0;
             }
         }
-
-        @media (max-width: 376px){
-            .main p {
-                font-size: 15px;
-                padding: 6px;
-            }
-
-            .passo ul li {
-                font-size: 15px;
-            }
-
-            .viodeo{
-                margin-top:30px;
-                margin-bottom: 30px;
-            }
-
-            #video-cf {
-                width: 250px !important;
-                position: relative;
-                left:0;
-            }
-        }
-
-
+      
+       
         @media (max-width: 426px){
             .main p {
                 font-size: 18px;
@@ -171,26 +152,48 @@
                 position: relative;
                 left:0;
             }
-        }
-
-        @media (max-width: 768px){
+        } 
+       
+        @media (max-width: 376px){
             .main p {
-                font-size: 18px;
+                font-size: 15px;
                 padding: 6px;
             }
 
             .passo ul li {
-                font-size: 18px;
+                font-size: 15px;
             }
 
             .viodeo{
                 margin-top:30px;
                 margin-bottom: 30px;
             }
-            
-           
+
             #video-cf {
-                width: 600px !important;
+                width: 285px !important;
+                position: relative;
+                left:0;
+            }
+        } 
+
+
+        @media (max-width: 321px){
+            .main p {
+                font-size: 15px;
+                padding: 6px;
+            }
+
+            .passo ul li {
+                font-size: 15px;
+            }
+
+            .viodeo{
+                margin-top:30px;
+                margin-bottom: 30px;
+            }
+
+            #video-cf {
+                width: 250px !important;
                 position: relative;
                 left:0;
             }
