@@ -65,6 +65,8 @@ img {
   display: none;
 }
 
+/* Midias */
+
 @media (max-width: 376px) {
  
   .menu-icon {
@@ -72,7 +74,10 @@ img {
   }
 
   #header{
-    background: url("../img/FundoHeader.png");
+    background: url("../img/FundoHeader3.png") no-repeat ;
+    background-size:cover;
+    background-position: 5% -2%; 
+    background-size: 100% 106%; 
   }
 
   #header a {
@@ -83,12 +88,12 @@ img {
     display: block;
     position: absolute;
     top: 1%;
-    left: 61%;
+    left: 65%;
   }
 
   #header {
     width: 100%;
-    max-width: 319px;
+    max-width: 375px;
   }
 
   #menu {
@@ -165,7 +170,7 @@ img {
   /* info-mobile */
   .info-mobile {
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     /* border: 2px solid #fff; */
     display: flex;
@@ -177,8 +182,9 @@ img {
   #info-mobile .info-mobile-app {
     font-family: 'Nunito', sans-serif;
     font-size: 0.9rem;
-    width: 110px;
-    padding: 10px;
+    width: 100%;
+    max-width: 155px;
+    padding: 13px 0;
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
@@ -190,7 +196,7 @@ img {
   }
 
   #info-mobile .info-mobile-watts {
-    width: 43px;
+    width: 50px;
     padding: 10px;
     border-radius: 6px;
     text-align: center;
@@ -203,7 +209,7 @@ img {
   }
 
   #info-mobile .info-mobile-face {
-    width: 43px;
+    width: 50px;
     padding: 10px;
     border-radius: 6px;
     text-align: center;
@@ -216,7 +222,7 @@ img {
   }
 
   #info-mobile .info-mobile-insta {
-    width: 43px;
+    width: 50px;
     padding: 10px;
     border-radius: 6px;
     text-align: center;
@@ -233,14 +239,14 @@ img {
 
   .quemsomos {
     width: 100%;
-    max-width: 319px;
+    max-width: 375px;
     margin: 58px auto;
     display:flex;
   }
 
   .quemsomos-bg {
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.11);
@@ -284,13 +290,13 @@ img {
   /* proposito */
   .proposito{
     width: 100%;
-    max-width: 319px;
+    max-width: 375px;
     margin: 58px auto;
   }
 
   .proposito-bg{
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     padding: 15px;
   }
@@ -321,7 +327,7 @@ img {
 
   .regras-bg{
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.11);
@@ -346,7 +352,7 @@ img {
 
   #video-cf{
     width:100%;
-    max-width:375px; 
+    max-width:370px; 
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid rgba(255, 255, 255, 0.11);
@@ -368,9 +374,14 @@ img {
     margin: 58px auto;
   }
 
+  .duvidas{
+    background: url('../img/fundoDuvudas.png')no-repeat center;
+    background-size: cover;
+  }
+
   .duvidas-bg{
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     padding: 15px;
   }
@@ -400,7 +411,7 @@ img {
 
   .duvida-botoes-contatos{
      width: 100%;
-     max-width: 305px;
+     max-width: 355px;
      display:flex;
      flex-wrap: wrap;
      justify-content: space-around;
@@ -408,7 +419,7 @@ img {
   }
 
   .duvida-botoes-contatos div{
-    width: 43px;
+    width: 50px;
     padding: 10px;
     border-radius: 6px;
     text-align: center;
@@ -433,10 +444,14 @@ img {
     max-width: 375px;
     margin: 50px auto;
   }
+  .termos-bg{
+    background: url('../img/FundoRegras2.png') no-repeat;
+    background-size: cover;
+  }
 
   .termos-bg{
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.11);
@@ -471,7 +486,7 @@ img {
 
   .footer-bg{
     width: 100%;
-    max-width: 305px;
+    max-width: 355px;
     margin: 0 auto;
     padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.11);
