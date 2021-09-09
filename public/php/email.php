@@ -22,6 +22,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 
   if (mail($to, $subject, $body, $header)) {
     echo ("Email enviado com sucesso.");
+    sleep(3);
     header ("location: http://www.cashbackfitness.club/index.html");
     die();
   } else {

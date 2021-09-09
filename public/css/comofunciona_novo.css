@@ -229,7 +229,7 @@ img {
   .quemsomos {
     width: 100%;
     max-width: 319px;
-    margin: 30px auto;
+    margin: 58px auto;
     display:flex;
   }
 
@@ -249,7 +249,7 @@ img {
   .quemsomos-bg h1 {
     font-size: 2rem;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 15px;
   }
 
@@ -275,4 +275,36 @@ img {
       inset -18px -18px 30px rgba(52, 61, 186, 0.5),
       inset 18px 18px 30px rgba(1, 16, 127, 0.5);
   }
+
+  /* proposito */
+  .proposito{
+    width: 100%;
+    max-width: 319px;
+    margin: 58px auto;
+  }
+
+  .proposito-bg{
+    width: 100%;
+    max-width: 305px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .proposito-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .proposito-texto{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .proposito-foto{
+    display:none;
+  }
+
+
 }
