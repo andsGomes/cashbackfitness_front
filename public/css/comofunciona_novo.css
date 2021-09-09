@@ -263,7 +263,7 @@ img {
     padding: 15px 0;
     display:flex;
     justify-content: space-around;
-    align-self: baseline;
+    align-items: baseline;
   }
   
   .quemsomos-fotos img {
