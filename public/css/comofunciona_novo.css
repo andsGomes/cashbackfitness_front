@@ -68,11 +68,11 @@ img {
 }
 
 
-@media (max-width:321px){
+@media (max-width:400px){
   
   .menu-icon{
-    width:100%;
-    max-width:300px;
+    /* width:100%; */
+    max-width:270px;
   }
 
   #header a{
@@ -140,7 +140,6 @@ img {
     
   }
 
-
   #hamburger::after, #hamburger::before{
     content:" "; 
     display: block;
@@ -148,6 +147,24 @@ img {
     height: 2px;
     background:currentColor;
     margin-top: 8px;
+    transition: .3s;
+    position: relative;
   }
+   
+  #nav.active #hamburger{
+    border-top-color: transparent;
+  }
+
+  #nav.active #hamburger::before{
+   transform: rotate(135deg);
+  }
+
+  #nav.active #hamburger::after{
+    transform: rotate(-135deg);
+    top: -8px;
+  }
+
+
+
 
 }

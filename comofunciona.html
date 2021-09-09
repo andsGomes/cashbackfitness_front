@@ -11,22 +11,43 @@
 
 <body>
     <!-- menu informativo -->
-    
+       
     <!-- menu -->
     <header id="header">
        <a href="#">
            <img class="menu-icon" src="/public/img/svg/logoNome.svg" alt="logo">
        </a>    
        <nav class="menu-nav" id="nav" >
-          <button id="btn-mobile"><span id="hamburger"></span>
+          <button 
+          id="btn-mobile" 
+          area-label="abrir menu" 
+          aria-haspopup="true" 
+          area-controls="menu" 
+          aria-expanded="false">
+          <span id="hamburger"></span>
           </button>
-          <ul id="menu">
+          <ul id="menu" role="menu">
               <li><a href="index.html">Incio</a></li>
               <li><a href="comofunciona.html">Como Funciona</a></li>
               <li><a href="contato.html">Fale Conosco</a></li>
           </ul>
       </nav>
    </header>
+   <!-- info-mobile -->
+   <div class="info-mobile">
+     <a href="#">
+         Baixe o app
+     </a>
+     <a href="#">
+         <img src="/public/img/svg/whatsapp.svg" alt="">
+     </a>
+     <a href="#">
+         <img src="/public/img/svg/facebook.svg" alt="">
+     </a>
+     <a href="#">
+         <img src="/public/img/svg/instagram.svg" alt="">
+     </a>
+   </div>
     <!-- Quem Somos -->
     <section class="quemsomos">
         <div class="quemsomos-bg">
