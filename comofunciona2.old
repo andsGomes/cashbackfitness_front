@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../public/img/svg/Logo_com_fundo_preto.svg"/>
+    <title>como funciona</title>
+    <link rel="stylesheet" href="../../public/css/comofunciona.css">
+</head>
+
+<body>
+    <div id="page">
+        <div class="container">
+            <header>
+                <div class="inicio-header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../../public/img/svg/Logo CashBack Fitness.svg" alt="Logo calback Fitness">
+                        </a>
+                    </div>
+                </div>
+                <nav class="nav-menu ">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="comofunciona.html" class="ativo">como funciona</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">fale conosco</a>
+                        </li>
+                        <!-- <li>
+                            <a href="cadastro.html">cadastro</a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="#" class="entrar">Entrar</a>
+                        </li> -->
+
+                    </ul>
+                </nav>
+            </header>
+            <main class="main">
+                <section class="container quemsomos">
+                    <h1>Quem Somos</h1>
+                    <div class="">
+                     <p>Grupo de amigos que decidiram sair do sedentarismo e tornar constante a prática de atividade física, mantendo  contato regular com todos os membros participantes a fim de se incentivarem mutuamente.
+                         Após muitas tentativas fracassadas de incluírem a pratica de exercícios em suas rotinas, decidiram de maneira  descontraída que quando algum integrante não cumprisse sua meta diária de exercícios, pagaria um o valor  simbólico aos outros que tivessem confirmado o exercício. Nascendo assim, uma disputa saudável, em que todos  de uma forma ou outra saem .
+                     </p>
+                    </div>
+                    <div class="viodeo">
+                     <video id="video-cf" controls="controls">
+                         <source src=" public/videos/Cashback Fitness-v1.mp4 " type="video/mp4 ">
+                         <object data="" id="video-cf">
+                               <embed id="video-cf" src="public/videos/Cashback Fitness-v1.mp4 ">
+                         </object>
+                     </video>
+                   </div>
+                </section>
+                <section class="container proposito">
+                    <h1>Próposito</h1>
+                    <div class="">
+                      <p>
+                        Praticar atividade física regularmente, melhorando assim a qualidade de vida.
+                        Incentivar todos os participantes através das recompensas diárias de valores.
+                        O projeto abrange tanto os iniciantes, que são as pessoas que não fazem atividade física frequente, bem como  os    que já incorporaram essa prática em rotina. 
+                         Lembrando que o intuito principal não é o valor recebido e sim, uma mudança saudável em sua rotina.
+                      </p>
+                    </div>
+                </section>
+                <section class="container passoapasso">
+                   <h1>Passo a Passo</h1>
+                   <div class="passo">
+                    <p>
+                        <ul>
+                            <li>
+                                1-Se associar a algum grupo de participantes através do Menu “Participar”
+                            </li>
+                            <li>
+                                2-Verificar os grupos disponíveis e os valores necessários para adesão, caso não tenho o saldo suficiente será necessário realizar um deposito.
+                            </li>
+                            <li>
+                                3-Realizar o novo deposito através do Menu “Depositar”, pode ser realizado através de PIX ou TED 
+                            </li>
+                            <li>
+                                4-A Confirmação do Deposito e liberação acontece dentro de 12 horas
+                            </li>
+                            <li>
+                                5-Após a confirmação, o participante poderá iniciar as suas atividades diárias, através do menu “Informar Exercício”
+                            </li>
+                            <li>
+                                6-O Participante sempre deve compartilhar uma foto que comprove a pratica do exercício
+                            </li>
+                            <li>
+                                7-O Participante conseguira ver o seu saldo do dia, saldo total disponível e sua performance na tela principal do App
+                            </li>
+                            <li>
+                                8-O Participante terá a visibilidade do seu ganho diário através do menu “Extrato”
+                            </li>
+                            <li>
+                                9-Ao final de cada mês o participante poderá renovar a sua participação para o mês seguinte
+                            </li>
+                        </ul>                        
+                    </p>
+                   </div>
+                </section>
+                <section class="container Regras">
+                    <h1>Regras</h1>
+                    <div class="">
+                      <p>
+                        Praticar no mínimo 30 minutos seguidos de qualquer exercício
+                        Praticar exercícios todos os dias uteis (Segunda a Sexta)
+                        A comprovação do Exercício deve ser compartilhada no APP
+                        A comprovação deve acontecer até as 23:59 de cada dia
+                        Feriados Nacionais são abonados e não precisam da realização dos exercícios. Todos recebem os R$5,00 referente ao seu exercício diário.
+                      </p>
+                    </div>
+                </section>
+                <section class="container duvidas">
+                    <h1>Duvidas</h1>
+                    <div class="">
+                      <p>
+                        Tenho que praticar todos os dias?<br/>
+                        R: <strong> Não, somente os dias uteis da semana (Segunda a Sexta)</strong>
+                        <br/>
+                        <br/>
+                        Tenho que Praticar nos Feriados?<br/>
+                        R:<strong> NãoSomente os Feriados Nacionais são abonados e não precisamos praticar os exercícios, os feriados “Municipais” precisamos realizar os exercícios.</strong>
+                        <br/>
+                        <br/>
+                        
+                        Quando sei quando é Feriado?<br/>
+                        R:<strong>No começo de cada mês é informado se naquele mês teremos feriados Nacionais “Abonados”</strong> 
+                        <br/>
+                        <br/>
+                        Quantos Minutos preciso praticar?<br/>
+                        R: <strong>No começo de cada mês é informado30 minutos seguidos.</strong>
+                        <br/>
+                        <br/>
+                        Quais os exercícios são validos?<br/>
+                        R: <strong>No começo de cada mês é informadoQualquer exercício, o intuito é fazer com que a pessoa saia do sedentarismo.</strong>
+                        <br/>
+                        <br/>
+                        
+                        Caso tenha ficado alguma dúvida, se deseja fazer alguma sugestão ou está com algum problema 
+                        Pode nos contatar através do Whats (11) 94286-6974
+                      </p>
+                    </div>
+                </section>
+                <section class="container termos">
+                    <h1>Termos</h1>
+                    <div class="">
+                      <p>
+                        . Declaro que estou ciente que participarei de um projeto que não visa fins lucrativos e que seu único intuito é a criar um incentivo mutuo da pratica de exercícios e fazer isto com a maior quantidade de pessoas possíveis 
+                        . Sei que terei que comprovar através de fotos a minha pratica de exercício diária 
+                        . Minha recompensa será com base na minha assiduidade na pratica dos exercícios
+                        . Estou ciente que a divisão do valor do dia dos participantes que não realizaram o exercício , é dividido entre os participantes que                         realizaram + a administração do projeto , a administração entra na divisão como se fosse + um participante que realizou o exercício no                         dia 
+                        . O Valor arrecado é utilizado para manter as funcionalidades do site e Aplicativos , e em suas melhorias constantes
+                        . Sei que a cada final de mês terei que fazer o fechamento da minha participação , recebendo o que tenho direito ou então fazendo um                         novo deposito para participar de um novo grupo (caso o valor em saldo não seja suficiente)
+                        . Caso tenha optado por renovação automática e tenha o dinheiro em Saldo, ela acontecera no inicio de cada mês e o participante será                         notificado via App
+                        . Terei acesso ao meu saldo e extrato a qualquer momento
+                        . Poderei solicitar o resgate do meu saldo a qualquer momento
+                      </p>
+                    </div>
+                </section>
+            </main>
+            <footer></footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
