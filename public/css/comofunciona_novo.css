@@ -160,12 +160,19 @@ img {
 
 /* Midias 425px */
 @media (max-width: 425px){
+
+  #header{
+    background: url("../img/FundoHeader3.png") no-repeat ;
+    background-size:cover;
+    background-position: 5% -2%; 
+    background-size: 100% 106%; 
+  }
+
    /* info-mobile */
    .info-mobile {
     width: 100%;
-    max-width: 425px;
+    max-width: 375px;
     margin: 0 auto;
-    /* border: 2px solid #fff; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -176,7 +183,7 @@ img {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     width: 100%;
-    max-width: 210px;
+    max-width: 200px;
     padding: 13px 0;
     border-radius: 6px;
     text-align: center;
@@ -237,7 +244,7 @@ img {
 
   .quemsomos-bg {
     width: 100%;
-    max-width: 405px;
+    max-width: 375px;
     margin: 0 auto;
     padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.11);
@@ -277,6 +284,151 @@ img {
       inset -18px -18px 30px rgba(52, 61, 186, 0.5),
       inset 18px 18px 30px rgba(1, 16, 127, 0.5);
   }
+   
+  /* proposito */
+
+  .proposito{
+    width: 100%;
+    max-width: 425px;
+    margin: 58px auto;
+  }
+
+  .proposito-bg{
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .proposito-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .proposito-texto{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .proposito-foto{
+    display:none;
+  }
+
+  /* regras */
+
+  .regras{
+    width: 100%;
+    max-width: 425px;
+    margin: 58px auto;
+  }
+
+  .regras-bg{
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  .regras-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .regras-texto{
+    width: 100%;
+    text-align: justify;
+  }
+
+  #video-cf{
+    width:100%;
+    max-width:375px; 
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+   
+  }
+
+  /* duvidas */
+
+  .duvidas{
+    width: 100%;
+    max-width: 425px;
+    margin: 58px auto;
+  }
+
+  .duvidas{
+    background: url('../img/fundoDuvudas.png')no-repeat center;
+    background-size: cover;
+  }
+
+  .duvidas-bg{
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .duvidas-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .duvidas-textos{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .duvidas-textos li p{
+    padding:5px;
+    margin-bottom: 10px;
+  }
+
+  .duvida-texto-contato{
+    width: 100%;
+    text-align: justify;
+    margin-bottom:15px;
+  }
+
+  .duvida-botoes-contatos{
+     width: 100%;
+     max-width: 375px;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items:center;
+  }
+
+  .duvida-botoes-contatos div{
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+    margin-bottom: 15px; 
+    margin-top: 15px;  
+  }
 
 
 }
@@ -292,7 +444,6 @@ img {
   }
 
  
-
   /* info-mobile */
   .info-mobile {
     width: 100%;
