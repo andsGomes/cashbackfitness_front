@@ -65,21 +65,8 @@ img {
   display: none;
 }
 
-/* Midias */
-
-@media (max-width: 376px) {
- 
-  .menu-icon {
-    max-width: 265px;
-  }
-
-  #header{
-    background: url("../img/FundoHeader3.png") no-repeat ;
-    background-size:cover;
-    background-position: 5% -2%; 
-    background-size: 100% 106%; 
-  }
-
+/* Midias 425px */
+@media (max-width: 600px){
   #header a {
     margin: 0 auto;
   }
@@ -166,6 +153,145 @@ img {
     transform: rotate(-135deg);
     top: -8px;
   }
+}
+
+
+
+
+/* Midias 425px */
+@media (max-width: 425px){
+   /* info-mobile */
+   .info-mobile {
+    width: 100%;
+    max-width: 425px;
+    margin: 0 auto;
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #info-mobile .info-mobile-app {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 210px;
+    padding: 13px 0;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  #info-mobile .info-mobile-watts {
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  #info-mobile .info-mobile-face {
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  #info-mobile .info-mobile-insta {
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  /* quem somos */
+  .quemsomos {
+    width: 100%;
+    max-width: 425px;
+    margin: 58px auto;
+    display:flex;
+  }
+
+  .quemsomos-bg {
+    width: 100%;
+    max-width: 405px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  .quemsomos-bg h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .quemsomos-texto {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .quemsomos-fotos {
+    width: 100%;
+    padding: 15px 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  
+  .quemsomos-fotos img {
+    width: 100px;
+    border: 3px solid rgba(255, 255, 255, 0.11);
+    border-radius:50%;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+
+}
+
+/* Midias 375 */
+@media (max-width: 375px) {
+ 
+  #header{
+    background: url("../img/FundoHeader3.png") no-repeat ;
+    background-size:cover;
+    background-position: 5% -2%; 
+    background-size: 100% 106%; 
+  }
+
+ 
 
   /* info-mobile */
   .info-mobile {
