@@ -39,16 +39,81 @@ img {
   max-width: 100%;
   display: block;
 }
+/* info */
+#info {
+  width: 100%;
+  height: 70px;
+  background: #001D9A;
+}
 
+#info .info-bg {
+  width: 100%;
+  max-width: 980px;
+  height: 70px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-app {
+  font-family: 'Nunito', sans-serif;
+  font-size: .7rem;
+  width: 100%;
+  max-width: 150px;
+  padding: 10px 5px;
+  left: 0;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+    -9px -9px 16px rgba(52, 61, 186, 0.5),
+    inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+    inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+}
+
+.info-rede-sociais {
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.info-rede-sociais a {
+  width: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 6px;
+  box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+    -9px -9px 16px rgba(52, 61, 186, 0.5),
+    inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+    inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+}
 /* menu */
 
 #header {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 383px;
-  height: 180px;
   padding: 1.5rem;
+}
+
+#header .logo-nome {
+  display: none;
+}
+
+#header .logo {
+  width: 100%;
+  max-width: 110px;
 }
 
 #menu {
@@ -59,16 +124,40 @@ img {
 #menu a {
   display: block;
   padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#menu li a {
+  font-size: 0.9rem;
 }
 
 #btn-mobile {
   display: none;
 }
 
+#info-mobile {
+  display: none;
+}
+
 /* Midias 600px */
 @media (max-width: 600px) {
+  #info {
+    display: none;
+  }
+  #info-mobile {
+    display: flex;
+  }
+
   #header a {
     margin: 0 auto;
+  }
+
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
   }
 
   #nav button {
@@ -159,6 +248,13 @@ img {
     width: 100%;
     max-width: 600px;
   }
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
+  }
 
   #header {
     background: url('../img/FundoHeader3.png') no-repeat;
@@ -168,6 +264,11 @@ img {
   }
 
   /* info-mobile */
+
+  #info {
+    display: none;
+  }
+
   .info-mobile {
     width: 100%;
     max-width: 545px;
@@ -387,8 +488,8 @@ img {
   .duvidas {
     background: url('../img/fundoDuvudas.png') no-repeat center;
     background-size: cover;
-    background-position: 5% 0%;
-    background-size: 100% 100%;
+    background-position: 100% 40%;
+    background-size: 85% 100%;
   }
 
   .duvidas-bg {
@@ -427,7 +528,7 @@ img {
   }
 
   .duvida-texto-contato p {
-    font-size:1.4rem;
+    font-size: 1.4rem;
   }
 
   .duvida-botoes-contatos {
@@ -482,8 +583,8 @@ img {
       inset -18px -18px 30px rgba(52, 61, 186, 0.5),
       inset 18px 18px 30px rgba(1, 16, 127, 0.5);
   }
-  
-  .termos-bg img{
+
+  .termos-bg img {
     float: right;
   }
 
@@ -493,7 +594,6 @@ img {
     padding: 10px;
     margin-bottom: 20px;
   }
-
 
   .termo-texto p {
     font-size: 1.4rem;
@@ -529,9 +629,25 @@ img {
 
 /* Midias 575px */
 @media (max-width: 575px) {
+  #info {
+    display: none;
+  }
+
+  #info-mobile {
+    display: flex;
+  }
+
   #header {
     width: 100%;
     max-width: 575px;
+  }
+
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
   }
 
   #header {
@@ -746,8 +862,8 @@ img {
   .duvidas {
     background: url('../img/fundoDuvudas.png') no-repeat center;
     background-size: cover;
-    background-position: 5% 0%;
-    background-size: 100% 100%;
+    background-position: 100% 40%;
+    background-size: 85% 100%;
   }
 
   .duvidas-bg {
@@ -871,9 +987,25 @@ img {
 
 /* Midias 525px */
 @media (max-width: 526px) {
+  #info {
+    display: none;
+  }
+
+  #info-mobile {
+    display: flex;
+  }
+
   #header {
     width: 100%;
     max-width: 526px;
+  }
+
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
   }
 
   #header {
@@ -1213,9 +1345,25 @@ img {
 
 /* Midias 475px */
 @media (max-width: 475px) {
+  #info {
+    display: none;
+  }
+
+  #info-mobile {
+    display: flex;
+  }
+
   #header {
     width: 100%;
     max-width: 470px;
+  }
+
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
   }
 
   #header {
@@ -1555,9 +1703,25 @@ img {
 
 /* Midias 425px */
 @media (max-width: 425px) {
+  #info {
+    display: none;
+  }
+
+  #info-mobile {
+    display: flex;
+  }
+
   #header {
     width: 100%;
     max-width: 425px;
+  }
+
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
   }
 
   #header {
@@ -1895,11 +2059,27 @@ img {
 
 /* Midias 375 */
 @media (max-width: 375px) {
+  #info {
+    display: none;
+  }
+
+  #info-mobile {
+    display: flex;
+  }
+
   #header {
     background: url('../img/FundoHeader3.png') no-repeat;
     background-size: cover;
-    background-position: 5% -2%;
-    background-size: 100% 106%;
+    background-position: 50% 80%;
+    background-size: 100% 100%;
+  }
+
+  #header .logo-nome {
+    display: block;
+  }
+
+  #header .logo {
+    display: none;
   }
 
   /* info-mobile */
@@ -2106,8 +2286,10 @@ img {
   }
 
   .duvidas {
-    background: url('../img/fundoDuvudas.png') no-repeat center;
+    background: url('../img/fundoDuvudas.png') no-repeat;
     background-size: cover;
+    background-position: 100% 100%;
+    background-size: 100% 60%;
   }
 
   .duvidas-bg {
