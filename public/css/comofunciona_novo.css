@@ -482,6 +482,10 @@ img {
       inset -18px -18px 30px rgba(52, 61, 186, 0.5),
       inset 18px 18px 30px rgba(1, 16, 127, 0.5);
   }
+  
+  .termos-bg img{
+    float: right;
+  }
 
   .termos-bg h1 {
     font-size: 2.5rem;
