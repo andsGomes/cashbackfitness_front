@@ -65,8 +65,9 @@ img {
   display: none;
 }
 
-/* Midias 425px */
+/* Midias 600px */
 @media (max-width: 600px){
+
   #header a {
     margin: 0 auto;
   }
@@ -80,7 +81,7 @@ img {
 
   #header {
     width: 100%;
-    max-width: 375px;
+    max-width: 600px;
   }
 
   #menu {
@@ -156,10 +157,372 @@ img {
 }
 
 
+/* Midias 475px */
+@media (max-width: 475px){
+ 
+  #header {
+    width: 100%;
+    max-width: 470px;
+  }
+
+  #header{
+    background: url("../img/FundoHeader3.png") no-repeat ;
+    background-size:cover;
+    background-position: 5%  2%; 
+    background-size: 100% 106%; 
+  }
+
+   /* info-mobile */
+   .info-mobile {
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #info-mobile .info-mobile-app {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 230px;
+    padding: 13px 0;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  #info-mobile .info-mobile-watts {
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  #info-mobile .info-mobile-face {
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  #info-mobile .info-mobile-insta {
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  /* quem somos */
+  .quemsomos {
+    width: 100%;
+    max-width: 470px;
+    margin: 58px auto;
+    display:flex;
+  }
+
+  .quemsomos-bg {
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  .quemsomos-bg h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .quemsomos-texto {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .quemsomos-fotos {
+    width: 100%;
+    padding: 15px 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  
+  .quemsomos-fotos img {
+    width: 105px;
+    border: 3px solid rgba(255, 255, 255, 0.11);
+    border-radius:50%;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+   
+  /* proposito */
+
+  .proposito{
+    width: 100%;
+    max-width: 475px;
+    margin: 62px auto;
+  }
+
+  .proposito-bg{
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .proposito-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .proposito-texto{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .proposito-foto{
+    display:none;
+  }
+
+  /* regras */
+
+  .regras{
+    width: 100%;
+    max-width: 475px;
+    margin: 58px auto;
+  }
+
+  .regras-bg{
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  .regras-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .regras-texto{
+    width: 100%;
+    text-align: justify;
+  }
+
+  #video-cf{
+    width:100%;
+    max-width:475px; 
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+   
+  }
+
+  /* duvidas */
+
+  .duvidas{
+    width: 100%;
+    max-width: 475px;
+    margin: 62px auto;
+  }
+
+  .duvidas{
+    background: url('../img/fundoDuvudas.png')no-repeat center;
+    background-size:cover;
+    background-position: 5%  0%; 
+    background-size: 105% 110%; 
+  }
+
+  .duvidas-bg{
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .duvidas-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .duvidas-textos{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .duvidas-textos li p{
+    padding:10px;
+    margin-bottom: 10px;
+  }
+
+  .duvida-texto-contato{
+    width: 100%;
+    text-align: justify;
+    margin-bottom:20px;
+  }
+
+  .duvida-botoes-contatos{
+     width: 100%;
+     max-width: 445px;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items:center;
+  }
+
+  .duvida-botoes-contatos div{
+    width: 55px;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+    margin-bottom: 15px; 
+    margin-top: 15px;  
+  }
+
+  /* termos */
+
+  .termos-img{
+    display: none;
+  }
+
+  .termos{
+    width: 100%;
+    max-width: 475px;
+    margin: 62px auto;
+  }
+  .termos-bg{
+    background: url('../img/FundoRegras2.png') no-repeat;
+    background-size: cover;
+  }
+
+  .termos-bg{
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  .termos-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .termo-texto{
+    width: 100%;
+    text-align: justify;
+    padding:5px;
+    margin-bottom: 10px;
+  }
+  
+
+  /* footer */
+
+  .footer{
+    width: 100%;
+    max-width: 475px;
+    margin: 30px auto;
+  }
+
+  .footer-bg{
+    width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 /* Midias 425px */
 @media (max-width: 425px){
+  
+  #header {
+    width: 100%;
+    max-width: 425px;
+  }
 
   #header{
     background: url("../img/FundoHeader3.png") no-repeat ;
@@ -430,6 +793,70 @@ img {
     margin-top: 15px;  
   }
 
+  /* termos */
+
+  .termos-img{
+    display: none;
+  }
+
+  .termos{
+    width: 100%;
+    max-width: 425px;
+    margin: 50px auto;
+  }
+  .termos-bg{
+    background: url('../img/FundoRegras2.png') no-repeat;
+    background-size: cover;
+  }
+
+  .termos-bg{
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
+
+  .termos-bg h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .termo-texto{
+    width: 100%;
+    text-align: justify;
+    padding:5px;
+    margin-bottom: 15px;
+  }
+  
+
+  /* footer */
+
+  .footer{
+    width: 100%;
+    max-width: 425px;
+    margin: 30px auto;
+  }
+
+  .footer-bg{
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+      -9px -9px 16px rgba(52, 61, 186, 0.5),
+      inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+      inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+  }
 
 }
 
