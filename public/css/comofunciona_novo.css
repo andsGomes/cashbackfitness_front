@@ -102,14 +102,10 @@ img {
 }
 /* menu */
 
-#header {
-  width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem;
+#header{
+  background: url('../img/fundoHeaderweb.png')no-repeat center center;
+  background-size:101% 122% ;
+
 }
 
 #header .logo-nome {
@@ -120,6 +116,20 @@ img {
   width: 100%;
   max-width: 110px;
 }
+
+.header-bg{
+  width: 100%;
+  max-width:980px;
+  height:200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+/* menu */
+
 
 #menu {
   display: flex;
@@ -142,6 +152,54 @@ img {
 
 #info-mobile {
   display: none;
+}
+
+/* quemsomos */
+.quemsomos-fotos{
+  /* display: none; */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+
+.quemsomos-fotos img{
+  width:20%;
+}
+
+.quemsomos{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.quemsomos-bg{
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 6px;
+  box-shadow: 26px 20px 36px rgba(0, 0, 98, 0.5),
+    -9px -9px 16px rgba(52, 61, 186, 0.5),
+    inset -18px -18px 30px rgba(52, 61, 186, 0.5),
+    inset 18px 18px 30px rgba(1, 16, 127, 0.5);
+}
+
+.quemsomos-bg h1{
+   font-size:3rem;
+   padding:15px;
+   margin-bottom:30px;
+}
+
+.quemsomos-texto{
+  text-align:justify;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.quemsomos p{
+  font-size:1.3rem;
 }
 
 /* Midias 600px */
@@ -263,7 +321,6 @@ img {
 
   #header {
     background: url('../img/FundoHeader5.png') no-repeat;
-    background-size: cover;
     background-position: 5% 2%;
     background-size: 100% 106%;
   }
